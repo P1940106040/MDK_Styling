@@ -1,0 +1,14 @@
+{
+	"Service": "/MDK_Styling/Services/Sample.service",
+	"DefiningRequests": [
+	{
+		"Name": "Customers",
+		"Query": "Customers"
+	}
+],
+	"_Type": "Action.Type.OfflineOData.Download",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnFailure": "/MDK_Styling/Actions/Service/SyncFailureMessage.action"
+}

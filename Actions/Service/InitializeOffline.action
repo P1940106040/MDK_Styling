@@ -1,0 +1,17 @@
+{
+	"Service": "/MDK_Styling/Services/Sample.service",
+	"DefiningRequests": [
+	{
+		"Name": "Customers",
+		"Query": "Customers"
+	}
+],
+	"_Type": "Action.Type.ODataService.Initialize",
+	"ShowActivityIndicator": true,
+	"ActivityIndicatorText": "Downloading...",
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"OnSuccess": "/MDK_Styling/Actions/Service/InitializeOfflineSuccessMessage.action",
+	"OnFailure": "/MDK_Styling/Actions/Service/InitializeOfflineFailureMessage.action"
+}
